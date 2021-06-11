@@ -13,10 +13,8 @@ library(dplyr)
 
 
 # Upload files
-#NDVI_stats_nd = read.csv("C:/My_data/MOD13Q1-006-Statistics_no_deforested_2001_2019.csv", stringsAsFactors = FALSE)
-#NDVI_stats_d = read.csv("C:/My_data/MOD13Q1-006-Statistics_deforested_2001_2019.csv", stringsAsFactors = FALSE)
-NDVI_stats_nd = read.csv("D:/Herramientas_evaluacion_gestion/trabajo_final/nuevos_csv/MOD13Q1-006-Statistics_no_deforestado_2010_2018.csv", stringsAsFactors = FALSE)
-NDVI_stats_d = read.csv("D:/Herramientas_evaluacion_gestion/trabajo_final/nuevos_csv/MOD13Q1-006-Statistics_deforestado_2010_2018.csv", stringsAsFactors = FALSE)
+NDVI_stats_nd = read.csv("C:/My_data/MOD13Q1-006-Statistics_no_deforested_2001_2019.csv", stringsAsFactors = FALSE)
+NDVI_stats_d = read.csv("C:/My_data/MOD13Q1-006-Statistics_deforested_2001_2019.csv", stringsAsFactors = FALSE)
 
 # Create new variables for year and month, and convert Date to Date format
 
